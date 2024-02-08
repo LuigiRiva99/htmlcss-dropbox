@@ -262,6 +262,21 @@ h3 {
     padding: 60px 40px;
 }
 
+/* Business section */
+
+.card-business{
+    padding: 20px 0px;
+}
+
+.business .container-sm .row{
+    flex-wrap: wrap;
+}
+
+.business-body{
+    display: flex;
+    flex-direction: column;
+}
+
 /* debug */
 
 .debug .container-lg {
