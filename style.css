@@ -132,10 +132,17 @@ h2 {
     font-weight: 700;
 }
 
+.col-1{
+    
+}
+
 .col-3 {
     width: calc(4 * 100% / 12);
-    margin-right: 25px;
-    margin-left: 25px;
+}
+
+.mid {
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .card{
@@ -151,6 +158,7 @@ h2 {
 .card-head {
     text-align: center;
     border-bottom: 1px solid #E5E5E7;
+    padding: 10px 0px;
 }
 
 .card-sub{
@@ -162,17 +170,36 @@ h2 {
 .card-foot {
     border-top: 1px solid #E5E5E7;
     padding: 30px;
+    min-height: 400px;
 }
 
 .card-sub .blue-btn {
     padding: 10px 5px;
     width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .card-body-list {
     padding-top: 30px;
 }
 
+.card-foot-list{
+    margin-top: 20px;
+}
+
+.card-body-list > li, .card-foot-list > li{
+    display: flex;
+    padding: 10px 0px;
+}
+
+.card-body-list li > i, .card-foot-list li> i{
+    padding-right: 7px;
+}
+
+.card-foot-list li> i{
+    color: #0061FF;
+}
 /* debug */
 
 .debug .container-lg {
