@@ -42,6 +42,10 @@ body {
     width: 100%;
 }
 
+.container {
+    max-width: 1220px;
+}
+
 
 .row{
     display: flex;
@@ -56,10 +60,18 @@ body {
 
 .blue-btn {
     display: inline-block;
-    line-height: 25px;
+    line-height: 30px;
     color: white;
     background-color: #0061FF;
-    padding: 0px 15px;
+    padding: 0px 20px;
+}
+
+.col-4 {
+    width: calc(4 * 100% / 12);
+}
+
+.col-8 {
+    width: calc(8 * 100% / 12);
 }
 
 /* header */
@@ -67,6 +79,42 @@ body {
 header .row{
     justify-content: space-between;
     align-items: center;
+}
+
+/* Top section */
+
+.top-title {
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.col-4 .top-arrow{
+    margin-top: auto;
+    font-size: 60px;
+}
+
+.top-section{
+    background-color: #B4D0E7;
+}
+
+.top-section .col-4{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.col-4 > *{
+    font-size: 18px;
+}
+
+.top-content{
+    margin-top: 40px;
+}
+
+.col-4 .blue-btn{
+    padding: 5px 20px;
+    font-size: 18px;
 }
 
 /* debug */
