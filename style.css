@@ -46,6 +46,10 @@ body {
     max-width: 1220px;
 }
 
+.container-sm {
+    max-width: 1000px;
+}
+
 
 .row{
     display: flex;
@@ -115,6 +119,58 @@ header .row{
 .col-4 .blue-btn{
     padding: 5px 20px;
     font-size: 18px;
+}
+
+/* subscription section */
+
+.sub-title, .invoice{
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.col-3 {
+    width: calc(4 * 100% / 12);
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.card{
+    margin-top: 30px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.card-head {
+    text-align: center;
+    border-bottom: 1px solid #E5E5E7;
+}
+
+.card-sub{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E5E5E7;
+}
+
+.card-foot {
+    border-top: 1px solid #E5E5E7;
+    padding: 30px;
+}
+
+.card-sub .blue-btn {
+    padding: 10px 5px;
+    width: 100%;
+}
+
+.card-body-list {
+    padding-top: 30px;
 }
 
 /* debug */
