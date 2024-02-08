@@ -29,3 +29,56 @@ ol {
 body {
 	font-family: 'Open Sans';
 }
+
+/* layout */
+
+.container-lg,
+.container,
+.container-sm {
+    margin: 0 auto;
+}
+
+.container-lg {
+    width: 100%;
+}
+
+
+.row{
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    padding: 10px;
+}
+
+.blue-btn {
+    display: inline-block;
+    line-height: 25px;
+    color: white;
+    background-color: #0061FF;
+    padding: 0px 15px;
+}
+
+/* header */
+
+header .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* debug */
+
+.debug .container-lg {
+    border: 1px solid purple;
+}
+
+.debug .container {
+    border: 1px solid rgb(0, 128, 75);
+}
+
+.debug .container-sm {
+    border: 1px solid rgb(0, 68, 128);
+}
