@@ -93,6 +93,10 @@ body {
     width: calc(9 * 100% / 12);
 }
 
+.cube{
+    width: 50%;
+}
+
 
 
 /* header */
@@ -303,16 +307,87 @@ h3 {
 .business-body > h3 {
     padding: 40px 0px;
 }
+
 /* utilize section */
+
+.utilize {
+    margin-top: 150px;
+}
+
 .utilize .container-sm{
     padding-right: 230px;
-    margin-top: 150px;
 }
 
 .utilize-more {
     margin-bottom: 50px;
 }
 
+/* sponsor section */
+
+.col-3.row {
+    flex-wrap: wrap;
+}
+
+.cube > img{
+    object-fit: contain;
+    height: 100%;
+}
+
+.cube{
+    padding: 75px 75px;
+    height: 320px;
+}
+
+.design {
+    background-color: #A2D39B;
+}
+
+.arizona {
+    background-color: #61082B;
+}
+
+.florida{
+    background-color: #0093CE;
+}
+
+.topps {
+    background-color: #FF1C1C;
+}
+
+.bicycle{
+    background-color: #D5001F;
+}
+
+.hearst {
+    background-color: #B4D0E7;
+}
+
+.lonelyplanet{
+    background-color: #0D2481;
+}
+
+.clear{
+    background-color: #FFD830;
+}
+
+.sponsor-center{
+    padding: 60px 60px;
+    background-color: #F5F5F5;
+}
+
+.sponsor-description {
+    margin-top: 40px;
+}
+
+.sponsor-center > img {
+    padding-bottom: 40px;
+    border-bottom: 1px solid grey;
+    height: 130px;
+}
+
+.sponsor {
+    margin-top: 150px;
+}
 /* debug */
 
 .debug .container-lg {
