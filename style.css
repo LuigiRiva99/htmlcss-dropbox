@@ -283,8 +283,12 @@ h3 {
     margin-top: 100px;
 }
 
+.business-title{
+    margin-bottom: 20px;
+}
+
 .card-business{
-    padding: 20px 0px;
+    padding: 20px 24px;
 }
 
 .business .container-sm .row{
@@ -296,7 +300,10 @@ h3 {
     flex-direction: column;
 }
 
-/* partner section */
+.business-body > h3 {
+    padding: 40px 0px;
+}
+/* utilize section */
 .utilize .container-sm{
     padding-right: 230px;
     margin-top: 150px;
