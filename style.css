@@ -58,7 +58,7 @@ body {
 .nav-list {
     display: flex;
     gap: 20px;
-    align-content: center;
+    align-items: center;
     padding: 10px;
 }
 
@@ -144,6 +144,10 @@ header .row{
     margin-top: 30px;
 }
 
+.monthly-invoice {
+    margin-right: 40px;
+}
+
 h2 {
     font-size: 40px;
     font-weight: 700;
@@ -153,6 +157,9 @@ h3 {
     font-size: 25px;
 }
 
+.mid{
+    margin: 0px 50px;
+}
 
 .card{
     margin-top: 30px;
@@ -161,7 +168,17 @@ h3 {
 .card-body {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 25px;
+}
+
+.price{
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.category{
+    color: gray;
+    font-size: 15px;
 }
 
 .card-head {
@@ -174,19 +191,19 @@ h3 {
     display: flex;
     flex-direction: column;
     border: 1px solid #E5E5E7;
+    height: 100%;
 }
 
 .card-foot {
     border-top: 1px solid #E5E5E7;
     padding: 30px;
-    min-height: 400px;
 }
 
 .card-sub .blue-btn {
     padding: 10px 5px;
     width: 100%;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 50px;
 }
 
 .card-body-list {
@@ -224,8 +241,11 @@ h3 {
     padding: 30px;
 }
 
-.col-3 .blue-btn{
+.contact-body .row .col-3 .blue-btn{
     margin-top: 20px;
+    line-height: 45px;
+    font-size: 17px;
+    padding: 0px 40px;
 }
 
 .solution{
