@@ -324,18 +324,20 @@ h3 {
 
 /* sponsor section */
 
-.col-3.row {
+.sponsor .row {
     flex-wrap: wrap;
 }
 
 .cube > img{
     object-fit: contain;
     height: 100%;
+    filter: invert(1);
 }
 
 .cube{
     padding: 75px 75px;
-    height: 320px;
+    height: 336px;
+    width: 336px;
 }
 
 .design {
@@ -409,6 +411,32 @@ h3 {
     background-color: white;
     padding: 10px 20px; 
     display: inline-block;
+}
+
+/* FAQ */
+
+.faq{
+    margin-top: 80px;
+}
+
+.faq h2{
+    padding: 50px 0px;
+    border-bottom: 1px solid grey;
+}
+
+.faq li{
+    display: flex;
+    padding: 30px 0px;
+    border-bottom: 1px solid grey;
+}
+
+.faq p{
+    font-weight: bold;
+}
+
+.chevron{
+    margin: 0px 20px 0px auto;
+    
 }
 /* debug */
 
