@@ -59,7 +59,7 @@ body {
     display: flex;
     gap: 20px;
     align-items: center;
-    padding: 10px;
+    padding: 23px 23px 23px 0px;
 }
 
 .blue-btn {
@@ -115,7 +115,6 @@ header .row{
 .top-title {
     font-size: 80px;
     font-weight: bold;
-    margin-top: 30px;
 }
 
 .col-4 .top-arrow{
@@ -125,6 +124,7 @@ header .row{
 
 .top-section{
     background-color: #B4D0E7;
+    padding-top: 80px;
 }
 
 .top-section .col-4{
@@ -239,6 +239,7 @@ h3 {
 
 .contact {
     margin-top: 30px;
+    border: 1px solid #E5E5E7;
 }
 
 .contact-body .row .col-3{
